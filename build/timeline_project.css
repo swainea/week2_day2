@@ -1,0 +1,40 @@
+main {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%; }
+
+section {
+  background-color: #50abff;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  float: right;
+  width: 60%;
+  border-radius: 7px;
+  padding: 1%;
+  box-sizing: border-box; }
+
+aside {
+  width: 15%;
+  position: relative;
+  float: right;
+  text-align: right;
+  box-sizing: border-box;
+  margin-right: 10%; }
+
+time {
+  font-size: 3em;
+  color: #50abff; }
+
+.date {
+  color: gray;
+  font-size: 1em; }
+
+.timeline {
+  width: 1%;
+  height: 100%;
+  float: right;
+  background-color: #a7d5ff;
+  position: absolute;
+  left: 35%; }
+
+/*# sourceMappingURL=timeline_project.css.map */
