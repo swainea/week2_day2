@@ -3,6 +3,11 @@ main {
   margin: 0 auto;
   margin-top: 10%; }
 
+article:nth-child(2n+2) section {
+  background-color: #014585; }
+article:nth-child(2n+2) aside .minutes {
+  color: #014585; }
+
 section {
   background-color: #50abff;
   color: white;
@@ -28,12 +33,12 @@ time {
   color: #50abff; }
 
 .date {
-  color: gray;
+  color: #c5c5c5;
   font-size: 1em; }
 
 .timeline {
   width: 1%;
-  height: 200%;
+  height: 95%;
   float: right;
   background-color: #a7d5ff;
   position: absolute;
@@ -49,5 +54,14 @@ time {
   background-color: #014585;
   border-radius: 50%;
   border: 7px solid #a7d5ff; }
+
+.underline {
+  top: 30%;
+  left: 1%;
+  height: 2px;
+  width: 98%;
+  position: absolute;
+  z-index: 1;
+  background-color: #c5c5c5; }
 
 /*# sourceMappingURL=timeline_project.css.map */
