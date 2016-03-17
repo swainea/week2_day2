@@ -1,0 +1,41 @@
+@media screen and (min-width:760px) and (max-width: 1024px) {
+  section{
+    width: 70%;
+  }
+  aside{
+    float: left;
+    width: 15%;
+  }
+  .underline{
+    top: 22%;
+  }
+  .timeline{
+    left: 25.5%;
+    height: 115%;
+  }
+}
+
+@media screen and (max-width: 759px){
+  section{
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+  aside{
+    float: none;
+    text-align: right;
+    margin: 5px;
+    width: 100%;
+  }
+  .dot{
+  height: 0;
+  width: 0;
+  border: none;
+  }
+  .timeline{
+    height: 0;
+    width: 0;
+  }
+  .underline{
+    top: 17%;
+}
